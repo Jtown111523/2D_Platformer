@@ -7,13 +7,17 @@ public class PlayerMoveScript : MonoBehaviour {
     public float distance;
 
     public float speed;
+    public Vector3 playerStartPos;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 
         player = GetComponent<Transform>();
-		
-	}
+        playerStartPos = new Vector3(player.position.x, player.position.y, 0);
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

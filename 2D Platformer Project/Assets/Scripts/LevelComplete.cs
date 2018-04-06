@@ -4,12 +4,24 @@ using UnityEngine;
 
 public class LevelComplete : MonoBehaviour {
 
-    public Transform player;
+   public Transform player;
 
     public float minDist;
 
-    bool playerHasLost = false;
 
+    [HideInInspector]
+    public bool playerHasLost = false;
+
+
+    EndGame endgame;
+
+    ScoreKeeper scoreKeeper;
+
+    private void Start()
+    {
+        endgame = FindObjectOfType<EndGame>();
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
+    }
 
     private void OnTriggerEnter2D()
     {
@@ -17,6 +29,10 @@ public class LevelComplete : MonoBehaviour {
         Debug.Log("Player wins");
         //send player to next level
         Debug.Log("Send Player to next level");
+
+        endgame.playerWin();
+
+
     }
     void Update () {
 
@@ -26,6 +42,11 @@ public class LevelComplete : MonoBehaviour {
             Debug.Log("Player loses");
             playerHasLost = true;
             //restart level
+
+            endgame.playerLose();
+
+            scoreKeeper.deaths++;
+
         }
 		
 	}
