@@ -10,7 +10,7 @@ public class JumpScript : MonoBehaviour {
 
     public float jumpVelocity;
 
-    bool inAir = false;
+    public bool inAir = false;
 
     Rigidbody2D rb;
 
@@ -22,15 +22,15 @@ public class JumpScript : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && inAir == false)
         {
             rb.velocity = Vector2.up * jumpVelocity;
+            inAir = true;
         }
 
         if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-            inAir = true;
         }
 
         if (rb.velocity.y < 0)
@@ -45,6 +45,7 @@ public class JumpScript : MonoBehaviour {
     {
         inAir = false;
     }
+
 
 }
 

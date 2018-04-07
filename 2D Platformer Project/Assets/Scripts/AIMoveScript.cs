@@ -4,42 +4,22 @@ using UnityEngine;
 
 public class AIMoveScript : MonoBehaviour {
 
-    private Vector3 floorPos;
+    public Transform enemyPos;
 
-    private Vector3 scale;
+    public float minX;
 
-    Vector3 enemyPos;
-
-    float scaleDist;
-
-    Vector3 offset;
+    public float maxX;
 
     public float distance;
 
-    public float speed;
+    public float difficulty;
 
     bool forward;
 
-    bool pause = false;
+	// Use this for initialization
+	void Start () {
 
-    private void OnCollisionEnter2D(Collision2D col)
-
-    {
-        if(col.collider.tag == "Floor")
-        {
-            floorPos = col.gameObject.GetComponent<Transform>().position;
-            scale = col.gameObject.GetComponent<Transform>().localScale;
-        }
-
-        offset = this.gameObject.GetComponent<Transform>().localScale;
-
-        //start enemy in middle
-        enemyPos = new Vector3(floorPos.x, (floorPos.y + (floorPos.y / 2)), 0);
-
-        this.transform.position = enemyPos;
-
-        //make starting direction random
-
+        //randomize direction
         int i = Random.Range(1, 3);
 
         if (i == 1)
@@ -50,46 +30,43 @@ public class AIMoveScript : MonoBehaviour {
         {
             forward = false;
         }
-    }
-
-
-    // Update is called once per frame
-    void Update () {
-
-        if(pause == false)
-        {
-            //wait to get data
-            StartCoroutine(WaitForData());
-            pause = true;
-        }
-
-        if(enemyPos.x <= (floorPos.x - (scale.x/2) + offset.x))
-        {
-            forward = true; 
-        }
-        if(enemyPos.x >= (floorPos.x + (scale.x/2) - offset.x))
-        {
-            forward = false;
-        }
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
 
         if(forward == true)
         {
-            //move player forward
-            enemyPos.x = enemyPos.x + (distance * speed * Time.deltaTime);
+            //move enemy forward
+            float enemyX = enemyPos.position.x;
+            float enemyY = enemyPos.position.y;
+
+            enemyX = enemyX + (distance * difficulty * Time.deltaTime);
+
+            this.transform.position = new Vector3(enemyX, enemyY, 0);
+
         }
         else if(forward == false)
         {
-            //move player backward
-            enemyPos.x = enemyPos.x - (distance * speed * Time.deltaTime);
+            //move enemy backward
+            float enemyX = enemyPos.position.x;
+            float enemyY = enemyPos.position.y;
+
+            enemyX = enemyX - (distance * difficulty * Time.deltaTime);
+
+            this.transform.position = new Vector3(enemyX, enemyY, 0);
         }
 
-        enemyPos.y = floorPos.y + (offset.y/2);
+        if (enemyPos.position.x <= minX)
+        {
+            forward = true;
+        }
 
-        this.transform.position = enemyPos;
+        if (enemyPos.position.x >= maxX)
+        {
+            forward = false;
+        }
 		
 	}
-    IEnumerator WaitForData()
-    {
-        yield return new WaitForSeconds(1);
-    }
 }

@@ -944,6 +944,27 @@ GameObject:
   m_PrefabParentObject: {fileID: 1401286885439520, guid: 88859c768ab42b140a28b454defbbaee,
     type: 2}
   m_PrefabInternal: {fileID: 1721229635}
+--- !u!114 &1171270736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171270735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945579845634453468bb8794c1d7f935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPos: {fileID: 1171270739}
+  minX: 25.5
+  maxX: 33
+  distance: 1
+  difficulty: 1
+--- !u!4 &1171270739 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4487843197671438, guid: 88859c768ab42b140a28b454defbbaee,
+    type: 2}
+  m_PrefabInternal: {fileID: 1721229635}
 --- !u!50 &1171270740
 Rigidbody2D:
   serializedVersion: 4
@@ -1149,11 +1170,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4487843197671438, guid: 88859c768ab42b140a28b454defbbaee, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 29.25
+      value: 29.27
       objectReference: {fileID: 0}
     - target: {fileID: 4487843197671438, guid: 88859c768ab42b140a28b454defbbaee, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.51
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 4487843197671438, guid: 88859c768ab42b140a28b454defbbaee, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1194,7 +1215,8 @@ Prefab:
       propertyPath: speed
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114385128299593458, guid: 88859c768ab42b140a28b454defbbaee, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 88859c768ab42b140a28b454defbbaee, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1727560677
