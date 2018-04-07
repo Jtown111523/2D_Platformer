@@ -15,12 +15,10 @@ public class LevelComplete : MonoBehaviour {
 
     EndGame endgame;
 
-    ScoreKeeper scoreKeeper;
 
     private void Start()
     {
         endgame = FindObjectOfType<EndGame>();
-        scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
 
     private void OnTriggerEnter2D()
@@ -44,8 +42,6 @@ public class LevelComplete : MonoBehaviour {
             //restart level
 
             endgame.playerLose();
-
-            scoreKeeper.deaths++;
 
         }
 		

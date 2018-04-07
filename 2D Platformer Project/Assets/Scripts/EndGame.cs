@@ -27,5 +27,7 @@ public class EndGame : MonoBehaviour {
 
         levelComplete.playerHasLost = false;
 
+        FindObjectOfType<ScoreKeeper>().deaths++;
+
     }
 }

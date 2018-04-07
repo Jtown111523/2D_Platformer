@@ -381,23 +381,31 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a24013ed95974ca49838f5a4b537a44f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &437163987 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1340385919755144, guid: 03fdfcff610b4be448f00443dfac8980,
+    type: 2}
+  m_PrefabInternal: {fileID: 1255701593}
+--- !u!114 &437163989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 437163987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a4e5bc3f32afd4ca41dd35d455df78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathText: {fileID: 1066446907}
+  diamondText: {fileID: 1155528584}
+  diamonds: 0
+  deaths: 0
 --- !u!1 &516669813 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1900667617289288, guid: 3f2dac826a2a0564d93e7138c137f730,
     type: 2}
   m_PrefabInternal: {fileID: 1587815476}
---- !u!114 &516669814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 516669813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7329d6856267a4e4ab6a741678962291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diamond: {fileID: 516669813}
 --- !u!60 &516669817
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -606,6 +614,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &855850194 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1641255588203240, guid: a24013ed95974ca49838f5a4b537a44f,
+    type: 2}
+  m_PrefabInternal: {fileID: 312134296}
+--- !u!114 &855850195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 855850194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d8df7613fc9fb4c8b90d085462cf5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963897840
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,7 +1003,8 @@ Prefab:
       propertyPath: levelComplete
       value: 
       objectReference: {fileID: 191897159}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114048328906395756, guid: 03fdfcff610b4be448f00443dfac8980, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 03fdfcff610b4be448f00443dfac8980, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1580003906 stripped
@@ -1025,6 +1050,10 @@ Prefab:
     - target: {fileID: 4397026285299304, guid: 3f2dac826a2a0564d93e7138c137f730, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900667617289288, guid: 3f2dac826a2a0564d93e7138c137f730, type: 2}
+      propertyPath: m_TagString
+      value: Diamond
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f2dac826a2a0564d93e7138c137f730, type: 2}
@@ -1082,7 +1111,7 @@ Prefab:
         type: 2}
       propertyPath: scoreKeeper
       value: 
-      objectReference: {fileID: 1990816160}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a71cfee55bc7f0498ca77f1c9cd61c6, type: 2}
   m_IsPrefabParent: 0
@@ -1191,12 +1220,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1255701593}
   m_Script: {fileID: 11500000, guid: 9893272f41135154ab7a30d82d6eaa06, type: 3}
---- !u!114 &1990816160 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114048328906395756, guid: 03fdfcff610b4be448f00443dfac8980,
-    type: 2}
-  m_PrefabInternal: {fileID: 1255701593}
-  m_Script: {fileID: 11500000, guid: 8563d3e9fd4f0344dbbcfa681e41457a, type: 3}
 --- !u!1 &2065996682
 GameObject:
   m_ObjectHideFlags: 0
