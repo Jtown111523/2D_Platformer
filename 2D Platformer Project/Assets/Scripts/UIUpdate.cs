@@ -20,16 +20,21 @@ public class UIUpdate : MonoBehaviour {
             DestroyObject(col.gameObject);
 
 
-            Debug.Log(col);
+            
         }
+
+       
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        string colTag = col.collider.tag;
 
         if (colTag == "Enemy")
         {
             // reset player position
             FindObjectOfType<EndGame>().playerLose();
             //add to deaths
-            
         }
-
     }
 }
