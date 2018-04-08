@@ -1,0 +1,1018 @@
+fileFormatVersion: 2
+guid: 254f6815d0feef64eba53f6d887a3247
+timeCreated: 1523214240
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteMapResting_0
+    21300002: SpriteMapResting_1
+    21300004: SpriteMapResting_2
+    21300006: SpriteMapResting_3
+    21300008: SpriteMapResting_4
+    21300010: SpriteMapResting_5
+    21300012: SpriteMapResting_6
+    21300014: SpriteMapResting_7
+    21300016: SpriteMapResting_8
+    21300018: SpriteMapResting_9
+    21300020: SpriteMapResting_10
+    21300022: SpriteMapResting_11
+    21300024: SpriteMapResting_12
+    21300026: SpriteMapResting_13
+    21300028: SpriteMapResting_14
+    21300030: SpriteMapResting_15
+    21300032: SpriteMapResting_16
+    21300034: SpriteMapResting_17
+    21300036: SpriteMapResting_18
+    21300038: SpriteMapResting_19
+    21300040: SpriteMapResting_20
+    21300042: SpriteMapResting_21
+    21300044: SpriteMapResting_22
+    21300046: SpriteMapResting_23
+    21300048: SpriteMapResting_24
+    21300050: SpriteMapResting_25
+    21300052: SpriteMapResting_26
+    21300054: SpriteMapResting_27
+    21300056: SpriteMapResting_28
+    21300058: SpriteMapResting_29
+    21300060: SpriteMapResting_30
+    21300062: SpriteMapResting_31
+    21300064: SpriteMapResting_32
+    21300066: SpriteMapResting_33
+    21300068: SpriteMapResting_34
+    21300070: SpriteMapResting_35
+    21300072: SpriteMapResting_36
+    21300074: SpriteMapResting_37
+    21300076: SpriteMapResting_38
+    21300078: SpriteMapResting_39
+    21300080: SpriteMapResting_40
+    21300082: SpriteMapResting_41
+    21300084: SpriteMapResting_42
+    21300086: SpriteMapResting_43
+    21300088: SpriteMapResting_44
+    21300090: SpriteMapResting_45
+    21300092: SpriteMapResting_46
+    21300094: SpriteMapResting_47
+    21300096: SpriteMapResting_48
+    21300098: SpriteMapResting_49
+    21300100: SpriteMapResting_50
+    21300102: SpriteMapResting_51
+    21300104: SpriteMapResting_52
+    21300106: SpriteMapResting_53
+    21300108: SpriteMapResting_54
+    21300110: SpriteMapResting_55
+    21300112: SpriteMapResting_56
+    21300114: SpriteMapResting_57
+    21300116: SpriteMapResting_58
+    21300118: SpriteMapResting_59
+    21300120: SpriteMapResting_60
+    21300122: SpriteMapResting_61
+    21300124: SpriteMapResting_62
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteMapResting_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_2
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_5
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_6
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_7
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 3409
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_10
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_11
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_12
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_13
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_14
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_15
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 2922
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_18
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_20
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_21
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_22
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_23
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 2435
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_25
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_26
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_27
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_28
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_29
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_30
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_31
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1948
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_34
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_35
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_36
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_37
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_38
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_39
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1461
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_42
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_43
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_44
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_45
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_46
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_47
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 974
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_49
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_50
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_51
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_52
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_53
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_54
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_55
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 487
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_58
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_59
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_60
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapResting_61
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 0
+        width: 360
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

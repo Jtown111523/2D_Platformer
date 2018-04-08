@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Ninja Head.png" width="352" height="641" pivot_x="0.738636" pivot_y="0.731669"/>
+        <file id="1" name="Foot Left.png" width="158" height="470" pivot_x="0.651899" pivot_y="0.076596"/>
+        <file id="2" name="Foot Right.png" width="152" height="470" pivot_x="0.171053" pivot_y="0.076596"/>
+        <file id="3" name="Forearm Left.png" width="363" height="385" pivot_x="0.713499" pivot_y="0.87013"/>
+        <file id="4" name="Forearm Right.png" width="348" height="305" pivot_x="0.244253" pivot_y="0.354098"/>
+        <file id="5" name="Leg Left.png" width="158" height="470" pivot_x="0.71519" pivot_y="0.22766"/>
+        <file id="6" name="Leg Right.png" width="152" height="470" pivot_x="0.269737" pivot_y="0.217021"/>
+        <file id="7" name="Torso.png" width="253" height="347" pivot_x="0.505929" pivot_y="0.121037"/>
+        <file id="8" name="Upperarm Left.png" width="348" height="305" pivot_x="0.738506" pivot_y="0.537705"/>
+        <file id="9" name="Upperarm Right.png" width="253" height="208" pivot_x="0.205534" pivot_y="0.572115"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="5" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="1" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="0" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="3" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Ninja Head">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="2.272727" y="559.090909" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Torso">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" y="404.545455"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Upperarm Right">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-77.272727" y="554.545455" angle="318.972496" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Forearm Right">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-125" y="496.376204" angle="230.194429" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Upperarm Left">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="67.928404" y="553.080986" angle="57.60016"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="Forearm Left">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="130.92723" y="514.348592" angle="329.858614" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
