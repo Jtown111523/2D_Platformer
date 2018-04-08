@@ -14,9 +14,13 @@ public class JumpScript : MonoBehaviour {
 
     Rigidbody2D rb;
 
+    Animator charAnim;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        charAnim = GetComponent<Animator>();
 
     }
 
@@ -26,6 +30,7 @@ public class JumpScript : MonoBehaviour {
         {
             rb.velocity = Vector2.up * jumpVelocity;
             inAir = true;
+            charAnim.SetInteger("movementState", 2);
         }
 
         if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
@@ -38,6 +43,7 @@ public class JumpScript : MonoBehaviour {
             //object is falling
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
+
 
     }
 

@@ -9,12 +9,16 @@ public class PlayerMoveScript : MonoBehaviour {
     public float speed;
     public Vector3 playerStartPos;
 
+    Animator charAnim;
+
 
     // Use this for initialization
     void Start () {
 
         player = GetComponent<Transform>();
         playerStartPos = new Vector3(player.position.x, player.position.y, 0);
+
+        charAnim = GetComponent<Animator>();
 
 
     }
@@ -31,6 +35,10 @@ public class PlayerMoveScript : MonoBehaviour {
             playerX = playerX + (distance * speed * Time.deltaTime);
 
             this.transform.position = new Vector3(playerX, playerY, 0);
+
+            //set animation
+
+            charAnim.SetInteger("movementState", 1);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))

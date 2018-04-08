@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: a0479b4813bdd7c4ba30de25df864a56
+timeCreated: 1523216113
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteMapJump_0
+    21300002: SpriteMapJump_1
+    21300004: SpriteMapJump_2
+    21300006: SpriteMapJump_3
+    21300008: SpriteMapJump_4
+    21300010: SpriteMapJump_5
+    21300012: SpriteMapJump_6
+    21300014: SpriteMapJump_7
+    21300016: SpriteMapJump_8
+    21300018: SpriteMapJump_9
+    21300020: SpriteMapJump_10
+    21300022: SpriteMapJump_11
+    21300024: SpriteMapJump_12
+    21300026: SpriteMapJump_13
+    21300028: SpriteMapJump_14
+    21300030: SpriteMapJump_15
+    21300032: SpriteMapJump_16
+    21300034: SpriteMapJump_17
+    21300036: SpriteMapJump_18
+    21300038: SpriteMapJump_19
+    21300040: SpriteMapJump_20
+    21300042: SpriteMapJump_21
+    21300044: SpriteMapJump_22
+    21300046: SpriteMapJump_23
+    21300048: SpriteMapJump_24
+    21300050: SpriteMapJump_25
+    21300052: SpriteMapJump_26
+    21300054: SpriteMapJump_27
+    21300056: SpriteMapJump_28
+    21300058: SpriteMapJump_29
+    21300060: SpriteMapJump_30
+    21300062: SpriteMapJump_31
+    21300064: SpriteMapJump_32
+    21300066: SpriteMapJump_33
+    21300068: SpriteMapJump_34
+    21300070: SpriteMapJump_35
+    21300072: SpriteMapJump_36
+    21300074: SpriteMapJump_37
+    21300076: SpriteMapJump_38
+    21300078: SpriteMapJump_39
+    21300080: SpriteMapJump_40
+    21300082: SpriteMapJump_41
+    21300084: SpriteMapJump_42
+    21300086: SpriteMapJump_43
+    21300088: SpriteMapJump_44
+    21300090: SpriteMapJump_45
+    21300092: SpriteMapJump_46
+    21300094: SpriteMapJump_47
+    21300096: SpriteMapJump_48
+    21300098: SpriteMapJump_49
+    21300100: SpriteMapJump_50
+    21300102: SpriteMapJump_51
+    21300104: SpriteMapJump_52
+    21300106: SpriteMapJump_53
+    21300108: SpriteMapJump_54
+    21300110: SpriteMapJump_55
+    21300112: SpriteMapJump_56
+    21300114: SpriteMapJump_57
+    21300116: SpriteMapJump_58
+    21300118: SpriteMapJump_59
+    21300120: SpriteMapJump_60
+    21300122: SpriteMapJump_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteMapJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_2
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_3
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_4
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_5
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_6
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_7
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3668
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_10
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_11
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_12
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_13
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_14
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_15
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 3144
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_19
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_20
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_21
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_22
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_23
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 2620
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_25
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_26
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_27
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_28
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_29
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_30
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_31
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 2096
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_33
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_34
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_35
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_36
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_37
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_38
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_39
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1572
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_41
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_42
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_43
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_44
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_45
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_46
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_47
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1048
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_49
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_50
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_51
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_52
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_53
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_54
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_55
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 524
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_57
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_58
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_59
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_60
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteMapJump_61
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 431
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
